@@ -1,1 +1,1 @@
-/home/connorgermain/rust-projects/guessing_game/target/debug/guessing_game: /home/connorgermain/rust-projects/guessing_game/src/main.rs
+/home/onaconnapuna/rust/guessing_game/target/debug/guessing_game: /home/onaconnapuna/rust/guessing_game/src/main.rs
