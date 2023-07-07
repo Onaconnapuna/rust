@@ -28,12 +28,23 @@ fn main {
             // do stuff with s
         }                      // this scope is now over, and s is no longer valid
     
+    let s = String::from("hello");
 }
 
-fn testing_repo {
+fn print_string() {
+    let mut s = String::from("hello");
 
+    s.push_str(", world!"); // push_str() appends a literal to a String
+
+    println!("{}", s); // This will print `hello, world!`
+}
+
+// Garbage collection? In the memory is automatically returned once the variable that owns it goes out of scope.
+fn no_garbage_collector() {
     {
-        let random_block = 10;
-    }
+        let s = String::from("hello"); // s is valid from this point forward
 
+        // do stuff with s
+    }                                  // this scope is now over, and s is no
+                                  // longer valid. Rust calls drop to free up the memory;
 }
