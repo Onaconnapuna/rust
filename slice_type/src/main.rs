@@ -97,6 +97,3 @@ fn slice_array() {
     assert_eq!(slice, &[2, 3]);
 }
 
-fn testing_again() {
-    let test = String::from("testing");
-}
