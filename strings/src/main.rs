@@ -114,5 +114,3 @@ iterating_over_strings() {
         println!("{b}");
     }
 }
-
-
