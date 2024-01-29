@@ -39,7 +39,7 @@ fn get_char(data: &String) -> char {
 }
 
 // Should take ownership
-fn string_uppercase(data: mut &String) {
+fn string_uppercase(mut data: String) {
     data = data.to_uppercase();
 
     println!("{}", data);
